@@ -1,0 +1,69 @@
+:root {
+    --preto-principal:#0c0d02;
+    --cor-do-texto:#36bba6;
+    --cor-do-botao:#fdffd9;
+    --cor-de-fundo:#8b911a;
+    --botao-efeito:#dcece9;
+    --fonte-principal:"Orbitron", sans-serif;
+    --fonte-secundaria:"Tulpen One", sans-serif;
+}
+body {
+    background-color: var(--preto-principal); /*cor de fundo do Html*/
+    color:var(--cor-do-texto);/*cor do texto*/
+    font-family: var(--fonte-principal);/*fonte do texto*/
+    font-size: 16px;/*tamanho da fonte*/
+    font-weight: 700;/*bolder:Aumenta o peso da fonte em relação ao elemento pai.*/
+}
+* { 
+    margin: 10px;/*margem do corpo*/
+    padding: 2px;/*espaçamento do corpo*/
+    border: solid 2px var(--preto-principal);
+
+    
+}
+.cabecalho {
+ padding:   2% 0 0 10% 15%;
+}
+.sobre_mim {
+
+    display:flex;
+    grid-template-columns: 100%;
+    text-align:none;
+    justify-content:center;
+
+}
+.menu {
+    display:flex;
+    gap: 80px;
+}
+.menu_topolist {
+    font-family: var(--fonte-principal);
+    font-size: 1.5rem;
+    font-weight: 800;
+    color:var(--cor-do-texto);
+    text-decoration:none;
+    border-radius: 5px;
+}
+.links {
+    display:flex;
+    gap : 16px;
+    justify-content: space-between;
+    align-items: center;
+    padding:5% 15%;
+}
+.links_subtitulo {
+    display:flex;
+    justify-content: space-around;
+    gap: 16px;
+    border: 2px solid var(--cor-do-botao);
+    width:50%;
+    text-align:space-around;
+    border-radius:8px;
+    font-size: 1.5rem;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color:var(--cor-do-texto);
+    align-items: center;
+    font-family: var(--fonte-principal);
+
+}
